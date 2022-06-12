@@ -1,0 +1,22 @@
+(* Viet chuong trinh bang ngon ngu KPL doc mot day so nguyen a1,.. an(n<=10) tu ban phim. Tim so lon nhat trong mang va in ra chi chi so cua cac phan tu dat gia tri lon nhat*)
+Program MaxArr;
+Var I: Integer;
+    N: Integer;
+    Max: Integer;
+    Tmp: integer;
+    Arr: array(.10.) of Interger;
+Begin
+    N := READI;
+    for I:= 0 to N Do
+    Arr(.i.) := READI;
+    Max := Arr(.1.);
+    for I:=1 to N do 
+    if Arr(.i.) >= Max Then Max := Arr(.I.);
+    for I:=1 to N do
+    if Arr(.i.) = Max Then
+    Begin
+        call WriteI(i);
+        call WriteLn;
+    End
+
+End.

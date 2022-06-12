@@ -1,0 +1,9 @@
+(* Viet chuong trinh in ra tong cua 2 so*)
+Program Sum;
+Var a:Integer;
+     b:Integer;
+Begin
+a := readI;
+b := readI;
+Sum := a + b;
+end.

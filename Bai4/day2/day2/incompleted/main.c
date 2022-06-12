@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
     printf("parser: no input file.\n");
     return -1;
   }
-
+  printf("check core dumped");
   if (compile(argv[1]) == IO_ERROR) {
     printf("Can\'t read input file!\n");
     return -1;
