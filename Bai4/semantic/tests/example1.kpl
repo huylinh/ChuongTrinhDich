@@ -1,0 +1,5 @@
+Program Example1; (* Example 1 *)
+Var X : Integer;
+Begin
+X := 3*3**9*2**8;
+End. (* Example 1 *)
